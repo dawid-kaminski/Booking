@@ -1,0 +1,10 @@
+.main {
+  height: 93vh;
+  width: 100vw;
+  background-image: url(slide1.jpg);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('slide1.jpg'); */
+  /* background-blend-mode: lighten; */
+  /* background-color: #000; */
+  /* opacity: 0.3; */
+  filter: brightness(60%)
+}

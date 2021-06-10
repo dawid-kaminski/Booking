@@ -1,0 +1,140 @@
+.header {
+  height: 68.4px;
+  width: calc(100% - 200px);
+  padding: 0px 100px;
+  background-color: transparent!important;
+  background: transparent!important;
+  display: flex;
+  flex-direction: row;
+  top: 0px;
+  z-index: 99;
+  position: absolute;
+}
+
+.header__logo {
+  padding: 10px 0px 0px 25px;
+  max-height: 54px;
+}
+
+.header__options {
+  height: 100%;
+  width: auto;
+  padding-left: 242px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.header__options-item {
+  height: 100%;
+  width: auto;
+  text-align: left;
+  transition: all 0.25s ease;
+}
+
+.header__options-item-link {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  padding: 23px 20px;
+  /* color: #484848; */
+  color: #fff;
+  line-height: 1.6em;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.header__user-menu {
+  height: 100%;
+  width: auto;
+  padding-left: 104px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header__user-menu-item {
+  width: auto;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  float: left;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+.login {
+  padding: 23px 6px;
+}
+
+.header__icon {
+  padding-top: 3px;
+  margin-right: 8px;
+}
+
+.sign-up {
+  padding: 23px 17px;
+  display: flex;
+  justify-content: end;
+}
+
+.plus {
+  margin-right: 5px;
+}
+
+.header__user-menu-login {
+  height: 12px;
+  text-transform: capitalize;
+  color: #fff;
+  line-height: 1.6em;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.header__user-menu-sing-up {
+  height: 12px;
+  text-transform: capitalize;
+  color: #fff;
+  line-height: 1.6em;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.header__button-placing {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  float: left;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.submit {
+  margin-left: 8px;
+  padding: 10px 16px!important;
+  background: linear-gradient(90deg, 
+  rgb(166, 114, 231) 0%,
+  rgb(184, 129, 253) 100%);
+  border-radius: 40px;
+  border: none;
+  transition: all 0.3s linear;
+  display: inline!important;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.header__options-item-link:hover, 
+.header__user-menu-login:hover,
+.header__user-menu-sing-up:hover {
+  color: #b881fc;
+  cursor: pointer;
+}
