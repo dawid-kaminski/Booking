@@ -1,0 +1,41 @@
+.social-media {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 10%;
+  right: 0px;
+}
+
+.social-media__item-styling {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.facebook {
+  background-color: #4a66a0;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.pinterest {
+  background-color: #cb2027;
+}
+
+.instagram {
+  background-color: #405DE6;
+}
+
+.youtube {
+  background-color: #c4302b;
+}
+
+.facebook:hover, .twitter:hover, .pinterest:hover,
+.instagram:hover, .youtube:hover {
+  filter: brightness(115%)
+}

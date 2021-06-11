@@ -1,3 +1,9 @@
 .router {
-width: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+}
+
+.main-placement {
+  min-width: 100vw;
 }

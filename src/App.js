@@ -1,7 +1,8 @@
 import './App.css';
-import Header from './header/Header.js';
 import Main from './main/Main.js';
-import MessagePin from './message/MessagePin.js';
+import MessagePin from './pins/MessagePin.js';
+import SocialMedia from './pins/SocialMedia.js'
+import Searchbar from './searchbar/Searchbar.js'
 
 import {
   BrowserRouter as Router,
@@ -14,11 +15,11 @@ function App() {
   return (
     <div className="router">
       <Router>
-        <div className="main-placement">
-          <Main />
-        </div>
-        <MessagePin />
+        <Main />
       </Router>
+      <SocialMedia />
+      <MessagePin />
+      <Searchbar />
     </div>
   );
 }
