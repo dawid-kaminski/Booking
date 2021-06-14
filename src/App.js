@@ -4,6 +4,7 @@ import MessagePin from './pins/MessagePin.js';
 import SocialMedia from './pins/SocialMedia.js'
 import Searchbar from './searchbar/Searchbar.js'
 import FeaturedRent from './featuredRent/FeaturedRent.js'
+import BestPlaces from './bestPlaces/BestPlaces.js'
 
 import {
   BrowserRouter as Router,
@@ -18,6 +19,7 @@ function App() {
       <Router>
         <Main />
         <FeaturedRent />
+        < BestPlaces />
       </Router>
       <SocialMedia />
       <MessagePin />

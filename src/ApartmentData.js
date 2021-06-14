@@ -88,6 +88,16 @@ const apartments = [
     forRent: "Entire home",
     description: "Cozy home in Summerlin only 1.5 miles to Red Rock Resort and Downtown Summerlin with ample shopping, dining and entertainment. Red Rock Canyon State Park is located less than 10 miles away to enjoy hiking and rock climbing. More shopping, dining and entertainment located in Tivoli Village and Boca Park which is 2.5 miles away. In 1988, Summa Corporation exchanged more than 5,000 acres (2,000 ha) of land adjoining Red Rock Canyon National Conservation Area for 3,000 acres (1,200 ha) of land located south of Summerlin. This landmark land exchange was facilitated by The Nature Conservancy and critically acclaimed by the environmental community.[citation needed] It created a buffer zone to protect Red Rock Canyon National Conservation Area from future development.[5]",
     coverImg: "https://main.wprentals.org/properties/beautiful-cabin-simple-price/#website_rental_gallery-1"
+  },
+  {
+    id: "10",
+    name: "Nice Condo in Penn Station",
+    price: 200,
+    location: "New York",
+    houseType: "Condos",
+    forRent: "Private room",
+    description: "Renting a beautiful, modern one-bedroom in a new condo building (completed 2012) one block from Penn Station and MSG. Queen bed, large living room couch, full kitchen, washer/dryer unit, fireplace. Huge terrace with covered furniture. Ultra clean. Some unique amenities: private outdoor terrace, an electric fireplace, private washer/dryer. It’s right by Penn Station, which means you have instant access to all the subways, buses, and trains. Only 10 blocks from Times Square, a few blocks from Herald Square, and at the north part of Chelsea and Madison Square Park. You’ll have a one bedroom apartment with a big couch in the living room, and a full kitchen.",
+    coverImg: "https://main.wprentals.org/properties/terrace-condo-penn-station/#website_rental_gallery-1",
   }
 ]
 

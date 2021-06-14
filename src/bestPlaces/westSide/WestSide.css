@@ -1,0 +1,61 @@
+.westside-container {
+  height: auto;
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.westside {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.westside__img {
+  height: 100%;
+  width: 100%;
+  max-height: 400px;
+  /* max-width: 100%; */
+  position: relative;
+}
+
+.westside__img img {
+  height: 370px;
+  width: 293px;
+}
+
+.westside__text {
+  height: 25%;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 0px;
+  position: absolute;
+  display: flex;
+  bottom: 0;
+}
+
+.westside__header {
+  height: 50%;
+  width: 100%;
+  padding-left: 105px;
+  margin-bottom: 5px;
+  position: absolute;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 500;
+  background-color: transparent;
+  display: flex;
+}
+
+.westside__subheader {
+  margin-top: 30px;
+  padding-left: 120px;
+  font-size: 14px;
+  text-transform: lowercase;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
