@@ -4,7 +4,7 @@ import { getAllApartments } from "../ApartmentData.js";
 const apartmentlistSlice = createSlice({
   name: 'apartmentlist',
   initialState: {
-    list: getAllApartments().slice(0, 9)
+    list: getAllApartments()
   },
   reducers: {
     loadMoreApartments(state, action) {

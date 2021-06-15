@@ -1,0 +1,94 @@
+.beautifulcabin__content-styling {
+  height: 93vh;
+  width: 100vw;
+  /* background-size: cover; */
+  /* background-blend-mode: darken; */
+  /* background-blend-mode: lighten; */
+  /* background-color: #000; */
+  /* opacity: 0.3; */
+  /* filter: brightness(60%) */
+  background-image: url(slide3.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 29%), rgba(0, 0, 0, 31%)), url('slide3.jpg');
+  display: flex;
+}
+
+.beautifulcabin {
+  height: 60%;
+  width: 100%;
+  padding-left: 130px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+}
+
+.beautifulcabin__value {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.beautifulcabin__price {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.beautifulcabin__length-of-stay {
+  display: flex;
+  align-items: flex-end;
+}
+
+.beautifulcabin__name {
+  margin-top: 10px;
+  padding: 0px;
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  z-index: 99;
+  font-size: 57px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+
+.beautifulcabin__description {
+  height: auto;
+  width: 62%;
+  margin-top: 25px;
+  position: relative;
+  z-index: 99;
+  display: inline-block;
+}
+
+.beautifulcabin__button {
+  display: flex;
+  align-items: flex-start;
+}
+
+.view-more {
+  height: auto;
+  width: auto;
+  padding: 0;
+  margin-top: 25px;
+  text-transform: capitalize;
+  font-size: 15px;
+  color: #fff;
+  background-color: transparent;
+  transition: color .1s linear,background-color .1s linear,border-color .1s linear;
+  display: inline-block;
+  text-align: center;
+  font-weight: 500;
+  border: none;
+  text-decoration: none;
+}
+
+.beautifulcabin__name:hover {
+  color: #b881fc;
+  cursor: pointer;
+}
+
+.view-more:hover {
+  color: lightgray;
+  cursor: pointer;
+}

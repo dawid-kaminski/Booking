@@ -132,6 +132,10 @@
   text-transform: capitalize;
 }
 
+.submit:hover {
+  background: #990099;
+}
+
 .header__options-item-link:hover, 
 .header__user-menu-login:hover,
 .header__user-menu-sing-up:hover {

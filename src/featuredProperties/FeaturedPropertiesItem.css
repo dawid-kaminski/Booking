@@ -1,19 +1,19 @@
-.item__container {
+.property__container {
   height: auto;
-  width: 33.33333333%;
+  width: 50%;
   margin-bottom: 50px;
   background-color: transparent;
   display: flex;
 }
 
-.item {
+.property {
   height: 100%;
   width: 100%;
   padding-left: 8px;
   padding-right: 8px;
 }
 
-.item__img {
+.property__img {
   height: 100%;
   max-height: 320px;
   max-width: 100%;
@@ -26,13 +26,13 @@
   /* box-shadow: 0 2px 11px 0 rgb(181 127 250 / 10%); */
 }
 
-.item__img img {
+.property__img img {
   height: auto;
   max-width: 100%;
   background-size: cover;
 }
 
-.item__price {
+.property__price {
   height: 50%;
   width: 100%;
   position: absolute;
@@ -45,7 +45,7 @@
   rgba(0, 0, 0, 0) 3%, rgb(72, 72, 72) 100%);
 }
 
-.item__price-unit {
+.property__price-unit {
   margin: 0;
   padding-left: 20px;
   position: absolute;
@@ -57,14 +57,14 @@
   align-items: baseline;
 }
 
-.item__time-period {
+.property__time-period {
   font-size: 12px;
   margin-left: -2px;
   font-weight: 400;
   padding-left: 5px;
 }
 
-.item__details {
+.property__details {
   height: auto;
   width: calc(100% - 30px);
   padding: 0px 15px 15px 15px;
@@ -73,10 +73,10 @@
   flex-direction: column;
 }
 
-.item__rating {
+.property__rating {
   height: auto;
-  width: 19%;
-  padding: 0;
+  width: 13%;
+  padding-top: 10px;
   margin-top: 15px;
   display: flex;
   flex-direction: row;
@@ -84,53 +84,53 @@
   font-size: 10px;
 }
 
-.item__name {
+.property__name {
   margin: 5px 0px 10px 0px;
   display: inline-block;
-  line-height: 1.1em;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
+  line-height: 1.15em;
   color: #484848;
 }
 
-.item__address-and-favourite {
+.property__address-and-favourite {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.item__address-and-type {
+.property__address-and-type {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.item__address {
+.property__address {
   display: flex;
   flex-direction: row;
   color: #5d6475;
   font-size: 13px;
 }
 
-.item__marker-icon {
+.property__marker-icon {
   margin-right: 12px;
   margin-left: 3px;
   font-size: 15px;
 }
 
-.item__home-icon {
+.property__home-icon {
   margin-right: 10px;
   font-size: 15px;
 }
 
-.item__type {
+.property__type {
   display: flex;
   flex-direction: row;
   color: #5d6475;
   font-size: 13px;
 }
 
-.item__add-to-favourite--button {
+.property__add-to-favourite--button {
   background-color: #E5645F;
   width: 33px;
   height: 33px;
@@ -145,4 +145,13 @@
   background-color: transparent;
   border: none;
   text-decoration: none;
+}
+
+.property__name:hover {
+  color: #b881fc;
+  cursor: pointer;
+}
+
+.property__img:hover {
+  opacity: 0.89;
 }

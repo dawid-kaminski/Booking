@@ -20,7 +20,7 @@ function BestPlaces() {
         </div>
         <div className="best__slide-left--button">
           <button className="slide-left">
-            <FontAwesomeIcon icon={faChevronLeft} size="3x" color="black" />
+            <FontAwesomeIcon icon={faChevronLeft} size="1x" color="#7f8696;" />
           </button>
         </div>
         <div className="best__offers">
@@ -31,11 +31,10 @@ function BestPlaces() {
         </div>
         <div className="best__slide-right--button">
           <button className="slide-right">
-            <FontAwesomeIcon icon={faChevronRight} size="3x" color="black" />
+            <FontAwesomeIcon icon={faChevronRight} size="1x" color="#7f8696;" />
           </button>
         </div>
       </div>
-
     </div>
   )
 }

@@ -1,51 +1,51 @@
 import React from 'react';
-import './FeaturedRentItem.css';
+import './FeaturedPropertiesItem.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart, faStar, faMapMarker, faHome } from '@fortawesome/free-solid-svg-icons'
 
-function FeaturedRentItem(props) {
+function FeaturedPropertiesItem(props) {
 
   return(
-    <div className="item__container">
-      <div className="item">
-        <div className="item__img">
-          <img itemprop="image" src="https://mainwprentals.b-cdn.net/wp-content/uploads/2015/04/blue-400x314.jpg" />
-          <div className="item__price">
-            <div className="item__price-unit">
-              $ 45
-              <div className="item__time-period">
+    <div className="property__container">
+      <div className="property">
+        <div className="property__img">
+          <img itemprop="image" src="https://mainwprentals.b-cdn.net/wp-content/uploads/2015/04/rental2.jpg" />
+          <div className="property__price">
+            <div className="property__price-unit">
+              $ 65
+              <div className="property__time-period">
                 /per night
               </div>
             </div>
           </div>
         </div>
-        <div className="item__details">
-          <div className="item__rating">
+        <div className="property__details">
+          <div className="property__rating">
             <FontAwesomeIcon icon={faStar} color="#ffc662" />
             <FontAwesomeIcon icon={faStar} color="#ffc662" />
             <FontAwesomeIcon icon={faStar} color="#ffc662" />
             <FontAwesomeIcon icon={faStar} color="#ffc662" />
             <FontAwesomeIcon icon={faStar} color="#ffc662" />
           </div>
-          <div className="item__name">
-            {props.name}
+          <div className="property__name">
+            Victorian Bed & Breakfast
           </div>
-          <div className="item__address-and-favourite">
-            <div className="item__address-and-type">
-              <div className="item__address">
-                <div className="item__marker-icon">
+          <div className="property__address-and-favourite">
+            <div className="property__address-and-type">
+              <div className="property__address">
+                <div className="property__marker-icon">
                   <FontAwesomeIcon icon={faMapMarker} color="#5d6475" />
                 </div>
                 East Side, New York
               </div>
-              <div className="item__type">
-                <div className="item__home-icon">
+              <div className="property__type">
+                <div className="property__home-icon">
                   <FontAwesomeIcon icon={faHome} color="#5d6475" />
                 </div>
                 Villa / Entire home
               </div>
             </div>
-            <div className="item__add-to-favourite--button">
+            <div className="property__add-to-favourite--button">
               <button className="add-to-favourite">
                 <FontAwesomeIcon icon={faHeart} color="#ffffff" />
               </button>
@@ -57,4 +57,4 @@ function FeaturedRentItem(props) {
   )
 }
 
-export default FeaturedRentItem;
+export default FeaturedPropertiesItem;
