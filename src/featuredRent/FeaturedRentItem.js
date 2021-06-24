@@ -9,10 +9,10 @@ function FeaturedRentItem(props) {
     <div className="item__container">
       <div className="item">
         <div className="item__img">
-          <img itemprop="image" src="https://mainwprentals.b-cdn.net/wp-content/uploads/2015/04/blue-400x314.jpg" />
+          <img itemprop="image" src={props.coverImg} />
           <div className="item__price">
             <div className="item__price-unit">
-              $ 45
+              $ {props.price}
               <div className="item__time-period">
                 /per night
               </div>
@@ -36,13 +36,13 @@ function FeaturedRentItem(props) {
                 <div className="item__marker-icon">
                   <FontAwesomeIcon icon={faMapMarker} color="#5d6475" />
                 </div>
-                East Side, New York
+                {props.location}
               </div>
               <div className="item__type">
                 <div className="item__home-icon">
                   <FontAwesomeIcon icon={faHome} color="#5d6475" />
                 </div>
-                Villa / Entire home
+                {props.houseType} / {props.forRent}
               </div>
             </div>
             <div className="item__add-to-favourite--button">

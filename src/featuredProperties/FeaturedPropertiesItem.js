@@ -9,10 +9,10 @@ function FeaturedPropertiesItem(props) {
     <div className="property__container">
       <div className="property">
         <div className="property__img">
-          <img itemprop="image" src="https://mainwprentals.b-cdn.net/wp-content/uploads/2015/04/rental2.jpg" />
+          <img itemprop="image" src={props.coverImg} />
           <div className="property__price">
             <div className="property__price-unit">
-              $ 65
+              $ {props.price}
               <div className="property__time-period">
                 /per night
               </div>
@@ -28,7 +28,7 @@ function FeaturedPropertiesItem(props) {
             <FontAwesomeIcon icon={faStar} color="#ffc662" />
           </div>
           <div className="property__name">
-            Victorian Bed & Breakfast
+            {props.name}
           </div>
           <div className="property__address-and-favourite">
             <div className="property__address-and-type">
@@ -36,13 +36,13 @@ function FeaturedPropertiesItem(props) {
                 <div className="property__marker-icon">
                   <FontAwesomeIcon icon={faMapMarker} color="#5d6475" />
                 </div>
-                East Side, New York
+                {props.location}
               </div>
               <div className="property__type">
                 <div className="property__home-icon">
                   <FontAwesomeIcon icon={faHome} color="#5d6475" />
                 </div>
-                Villa / Entire home
+                {props.houseType} / {props.forRent}
               </div>
             </div>
             <div className="property__add-to-favourite--button">
