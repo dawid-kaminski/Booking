@@ -34,9 +34,12 @@
 <a name="images"></a>
 ### Images of the Project
 &nbsp;
-![](images/1.PNG)
-![](images/2.PNG)
-![](images/3.PNG)
+![](src/images/1.PNG)
+![](src/images/2.PNG)
+![](src/images/3.PNG)
+![](src/images/4.PNG)
+![](src/images/5.PNG)
+![](src/images/6.PNG)
 &nbsp;
 
 <a name="installation"></a>
