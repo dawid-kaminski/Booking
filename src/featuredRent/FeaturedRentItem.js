@@ -1,11 +1,15 @@
 import React from 'react';
 import './FeaturedRentItem.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart, faStar, faMapMarker, faHome } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faHeart,
+  faStar,
+  faMapMarker,
+  faHome,
+} from '@fortawesome/free-solid-svg-icons';
 
 function FeaturedRentItem(props) {
-
-  return(
+  return (
     <div className="item__container">
       <div className="item">
         <div className="item__img">
@@ -13,9 +17,7 @@ function FeaturedRentItem(props) {
           <div className="item__price">
             <div className="item__price-unit">
               $ {props.price}
-              <div className="item__time-period">
-                /per night
-              </div>
+              <div className="item__time-period">/per night</div>
             </div>
           </div>
         </div>
@@ -27,9 +29,7 @@ function FeaturedRentItem(props) {
             <FontAwesomeIcon icon={faStar} color="#ffc662" />
             <FontAwesomeIcon icon={faStar} color="#ffc662" />
           </div>
-          <div className="item__name">
-            {props.name}
-          </div>
+          <div className="item__name">{props.name}</div>
           <div className="item__address-and-favourite">
             <div className="item__address-and-type">
               <div className="item__address">
@@ -54,7 +54,7 @@ function FeaturedRentItem(props) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default FeaturedRentItem;

@@ -1,11 +1,15 @@
 import React from 'react';
 import './FeaturedPropertiesItem.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart, faStar, faMapMarker, faHome } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faHeart,
+  faStar,
+  faMapMarker,
+  faHome,
+} from '@fortawesome/free-solid-svg-icons';
 
 function FeaturedPropertiesItem(props) {
-
-  return(
+  return (
     <div className="property__container">
       <div className="property">
         <div className="property__img">
@@ -13,9 +17,7 @@ function FeaturedPropertiesItem(props) {
           <div className="property__price">
             <div className="property__price-unit">
               $ {props.price}
-              <div className="property__time-period">
-                /per night
-              </div>
+              <div className="property__time-period">/per night</div>
             </div>
           </div>
         </div>
@@ -27,9 +29,7 @@ function FeaturedPropertiesItem(props) {
             <FontAwesomeIcon icon={faStar} color="#ffc662" />
             <FontAwesomeIcon icon={faStar} color="#ffc662" />
           </div>
-          <div className="property__name">
-            {props.name}
-          </div>
+          <div className="property__name">{props.name}</div>
           <div className="property__address-and-favourite">
             <div className="property__address-and-type">
               <div className="property__address">
@@ -54,7 +54,7 @@ function FeaturedPropertiesItem(props) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default FeaturedPropertiesItem;
