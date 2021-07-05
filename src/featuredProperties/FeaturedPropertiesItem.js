@@ -13,7 +13,7 @@ function FeaturedPropertiesItem(props) {
     <div className="property__container">
       <div className="property">
         <div className="property__img">
-          <img itemprop="image" src={props.coverImg} />
+          <img src={props.coverImg} />
           <div className="property__price">
             <div className="property__price-unit">
               $ {props.price}
