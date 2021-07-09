@@ -1,12 +1,6 @@
 .familyfriendlycondo__content-styling {
   height: 93vh;
   width: 100vw;
-  /* background-size: cover; */
-  /* background-blend-mode: darken; */
-  /* background-blend-mode: lighten; */
-  /* background-color: #000; */
-  /* opacity: 0.3; */
-  /* filter: brightness(60%) */
   background-image: url(slide1.jpg);
   background: linear-gradient(rgba(0, 0, 0, 29%), rgba(0, 0, 0, 31%)), url('slide1.jpg');
   display: flex;

@@ -19,11 +19,8 @@
   max-width: 100%;
   border: none;
   border-radius: 0;
-  /* background-image: url(https://mainwprentals.b-cdn.net/wp-content/uploads/2015/04/blue-400x314.jpg); */
-  /* background-size: cover; */
   display: flex;
   position: relative;
-  /* box-shadow: 0 2px 11px 0 rgb(181 127 250 / 10%); */
 }
 
 .property__img img {

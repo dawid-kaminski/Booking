@@ -3,8 +3,6 @@
   width: auto;
   margin: 0;
   padding: 120px 0px;
-  /* background-image: url(https://mainwprentals.b-cdn.net/wp-content/uploads/2020/07/background_row-1.png); */
-  /* opacity: 0.05; */
   background-color: white;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
   display: flex;
