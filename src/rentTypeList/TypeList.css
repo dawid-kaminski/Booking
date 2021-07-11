@@ -10,9 +10,9 @@
 }
 
 .type {
-  height: auto;
+  height: 100%;
   width: 100%;
-  max-width: 1170px;
+  max-width: 1190px;
   display: flex;
   flex-direction: column;
   margin-right: auto;
@@ -44,5 +44,8 @@
 }
 
 .type__list {
-  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
