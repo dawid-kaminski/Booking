@@ -12,6 +12,10 @@ import TypeList from './rentTypeList/TypeList.js';
 import * as reactRouterDom from 'react-router-dom';
 
 function App() {
+  document.addEventListener('scroll', () => {
+    console.log(document.scrollY);
+  });
+
   return (
     <div className="router">
       <reactRouterDom.BrowserRouter>

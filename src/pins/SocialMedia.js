@@ -13,27 +13,47 @@ import {
 function SocialMedia() {
   return (
     <div className="social-media">
-      <a href="https://www.facebook.com/dawid.kaminski1/">
+      <a
+        href="https://www.facebook.com/dawid.kaminski1/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <div className="social-media__item-styling facebook">
           <FontAwesomeIcon icon={faFacebookF} color="white" size="2x" />
         </div>
       </a>
-      <a href="http://www.twitter.com/">
+      <a
+        href="http://www.twitter.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <div className="social-media__item-styling twitter">
           <FontAwesomeIcon icon={faTwitter} color="white" size="2x" />
         </div>
       </a>
-      <a href="http://www.pinterest.com/">
+      <a
+        href="http://www.pinterest.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <div className="social-media__item-styling pinterest">
           <FontAwesomeIcon icon={faPinterestP} color="white" size="2x" />
         </div>
       </a>
-      <a href="http://www.instagram.com/">
+      <a
+        href="http://www.instagram.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <div className="social-media__item-styling instagram">
           <FontAwesomeIcon icon={faInstagram} color="white" size="2x" />
         </div>
       </a>
-      <a href="https://www.youtube.com/channel/UCL-0oMbpsE931-xv3i-6xfg">
+      <a
+        href="https://www.youtube.com/channel/UCL-0oMbpsE931-xv3i-6xfg"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <div className="social-media__item-styling youtube">
           <FontAwesomeIcon icon={faYoutube} color="white" size="2x" />
         </div>
